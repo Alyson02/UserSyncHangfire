@@ -1,0 +1,7 @@
+﻿services:
+  UserSyncApp:
+    image: user_sync_app
+    build:
+      context: .
+      dockerfile: UserSyncAppWeb/Dockerfile
+
